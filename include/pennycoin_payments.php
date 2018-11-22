@@ -4,9 +4,8 @@
  * Main Gateway of Monero using a daemon online
  * Authors: Serhack and cryptochangements
  *
- * Modified March 2018 by NirvanaLabs to allow WooCommerce to accept pennykoin.com (PK) Cryptocurrency
- * Main Gateway of pennycoin using a daemon online
- * Author URI: http://nirvanalabs.co
+ * Modified November 2018 by EasyPool.pro (VN) to allow WooCommerce to accept pennykoin.com (PK) Cryptocurrency
+ * Author URI: https://easypool.pro
  */
 
 
@@ -609,7 +608,7 @@ class Pennycoin_Gateway extends WC_Payment_Gateway
          * function for verifying payments
          * Check if a payment has been made with this payment id then notify the merchant
          */
-        $message = "We are waiting for your payment to be confirmed";
+        $message = "We are waiting for your payment to be confirmed.<br />This maybe take about 15 ~ 45 minutes.";
         $amount_atomic_units = $amount * 100;
         $get_payments_method = $this->pennycoin_daemon->get_payments($payment_id);
         if (isset($get_payments_method["payments"][0]["amount"])) {

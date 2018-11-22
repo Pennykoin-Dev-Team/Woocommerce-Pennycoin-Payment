@@ -10,8 +10,8 @@
  * http://implix.com
  * Modified to work with monero-rpc wallet by Serhack and cryptochangements
  *
- * Modified March 2018 by NirvanaLabs to allow WooCommerce to accept Pennycoin Cryptocurrency
- * Author URI: http://nirvanalabs.co
+ * Modified November 2018 by EasyPool.pro (VN) to allow WooCommerce to accept pennykoin.com (PK) Cryptocurrency
+ * Author URI: https://easypool.pro
  */
 
 class Pennycoin_Library
