@@ -29,7 +29,7 @@ Flexible exchange rate calculations fully managed via administrative settings.
 - Press [ Save changes ]
 4. If you do not see any errors - your store is ready for operation and to access payments in Pennycoin! Else, please check all fields/options again.
 
-### Option #2 Rent a Remote Wallet - need level 1 technique (Will provide soon)
+### Option #2 Rent a Remote Wallet - Easier, only need level 1 technique - (Service will provide soon)
 If you are running Wordpress from a regular webhost, you will need to host a wallet on a remote server. www.pennyno.de, one our sponsors can host it for as little as $15 per year.
 1. Contact www.pennyno.de to rent a remote wallet.
 2. Within your site's Wordpress admin, navigate to: WooCommerce -> Settings -> Payments -> Pennycoin Gateways
